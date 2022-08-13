@@ -1,8 +1,8 @@
 import streamlit as st
-import joblit
+import joblib
 
-#load the joblit model
-model_nb = joblit.load('spam-ham')
+#load the joblib model
+model_nb = joblib.load('spam-ham')
 
 st.title('SPAM HAM CLASSIFIER')
 ip = st.text_input('Enter your text')
